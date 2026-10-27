@@ -1,0 +1,46 @@
+{
+  "name": "handline",
+  "version": "0.1.0",
+  "description": "Lines drawn by hand: SVG arrows that loop, land on real elements, and draw on the way a pen does.",
+  "type": "module",
+  "private": true,
+  "sideEffects": false,
+  "exports": {
+    ".": "./src/index.ts",
+    "./vanilla": "./src/vanilla.ts"
+  },
+  "types": "./src/index.ts",
+  "files": [
+    "src",
+    "!src/__tests__"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "test": "node scripts/test.mjs",
+    "typecheck": "tsc --noEmit",
+    "build": "node scripts/build.mjs",
+    "check": "npm run typecheck && npm test",
+    "format": "prettier --write src lab scripts"
+  },
+  "peerDependencies": {
+    "react": ">=18"
+  },
+  "peerDependenciesMeta": {
+    "react": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@types/node": "25.9.1",
+    "@types/react": "19.2.15",
+    "@types/react-dom": "19.2.3",
+    "@vitejs/plugin-react": "5.2.0",
+    "esbuild": "0.27.7",
+    "leva": "0.10.1",
+    "prettier": "3.8.3",
+    "react": "19.2.6",
+    "react-dom": "19.2.6",
+    "typescript": "5.9.3",
+    "vite": "7.3.3"
+  }
+}
