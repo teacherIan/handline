@@ -3,8 +3,6 @@
 Lines drawn by hand: SVG arrows that loop, land on real elements, and draw on
 the way a pen does.
 
-Design doc, with live figures: https://claude.ai/artifact/9P4krKBDewiEcH64Fi5XUM
-
 ```tsx
 <div style={{ position: 'relative' }}>
   <span ref={label}>Gallery</span>
@@ -90,3 +88,7 @@ pen. Without React: `createLine(layerEl, spec)` returns `play()`, `undraw()`,
 - [Doug's Found Wood](https://github.com/teacherIan/dfw_website): the menu
   arrows (desktop and phone) and the back button.
 - Planned: the Burr and Burton four-year plan's "you are here".
+
+## License
+
+MIT — see [LICENSE](LICENSE).
