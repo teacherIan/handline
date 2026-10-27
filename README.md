@@ -87,7 +87,19 @@ pen. Without React: `createLine(layerEl, spec)` returns `play()`, `undraw()`,
 
 - [Doug's Found Wood](https://github.com/teacherIan/dfw_website): the menu
   arrows (desktop and phone) and the back button.
-- Planned: the Burr and Burton four-year plan's "you are here".
+- Planned: the Burr and Burton four-year plan, which is drawn as a notebook:
+  the graph paper is the page, and its hand-drawn lines are notes someone made
+  on it — "you are here" pointing at this year, a counselor's note pointing at a
+  course.
+
+## Install
+
+```sh
+npm install github:teacherIan/handline#v0.1.0
+```
+
+It's TypeScript source; a Vite (or other bundler) project compiles it like its
+own code.
 
 ## License
 
